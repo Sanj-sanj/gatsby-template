@@ -1,0 +1,30 @@
+.backgroundImg {
+  display: grid;
+}
+.textBox {
+  display: grid;
+  grid-area: 1/1;
+  position: relative;
+
+  background-image: linear-gradient(to top, #ffcca9de, 8rem, #8ce7f31a);
+  animation: movement 5s infinite;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+/* 
+@keyframes movement {
+  0% {
+    background: linear-gradient(#ffcca9de, red);
+  }
+  50% {
+    background: linear-gradient(#ffcca9de, magenta);
+  }
+  100% {
+    background: linear-gradient(#ffcca9de, red);
+  }
+}
+*/
